@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <section>
+        <div class="card">
+            <h3>Temperature Converter</h3>
+            <div class="temperature">Celsius Fahrenheit Kelvin Rankine</div>
+            <div>
+                <input onChange="getTemp()" type="number" id="celsius" value="0">
+                <input id="fahrenheit" value="0">
+                <input id="kelvin" value="0">
+                <input id="rankine" value="0">
+            </div>
+            <div class="conversion">
+                <button onClick="convert()">Convert</button>
+                <button onClick="reset()">Reset</button>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <script src="assets/script/script.js"></script>
+</body>
+
+</html>

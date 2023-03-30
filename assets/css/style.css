@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    height: 100vh;
+    width: auto;
+    background-image: url(thermometer.jpeg);
+    background-size: cover;
+    background-position: center 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card {
+    height: 80vh;
+    width: 1000px;
+    background-color: rgba(155, 208, 231, 0.9);
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+}
+.temperature {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+    font-weight: 500;
+   
+}
+#celsius, #fahrenheit, #kelvin, #rankine{
+    height: 30px;
+    border-radius: 5px;
+}
+
+.conversion button {
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+
+
+
+
